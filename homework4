@@ -1,0 +1,113 @@
+CFT Technique
+Test preparation
+
+Build and verify the model (CFG)
+Test cases: CFG ) path to follow
+Outcome checking: what to expect and how to check it
+Other steps: Standard (Chapter 7)
+
+Test planning & procedure preparation
+Execution: normal/failure case handling
+Analysis and Followup
+Some specific attention in standard steps
+
+Confirmation of outcome and route in analysis and followup
+
+CFT: Constructing CFG
+Sources for CFG
+
+White box: design/code
+
+traditional white-box technique
+Black box: specification
+
+structure and relations in specs
+Program-derived (white-box) CFGs
+
+Processing: assignment and calls
+Branch statements
+
+binary: if-then-else, if-then
+multi-way: switch-case, cascading if’s
+Loop statements (later)
+
+composition: concatenating/nesting
+structured programming: no GOTOs
+
+hierarchical decomposition possible
+explicit/implicit entry/exit
+
+CFT: Constructing WB/CFG
+
+
+Example: Fig 11.2 (p.179)
+
+analyze program code on left
+derive CFG on right
+focus on decision and branches
+CFT: Constructing CFG
+Specification-derived (black-box) CFGs
+
+Node: "do" (enter, calculate, etc.)
+Branch: "goto/if/when/while/..."
+Loop: "repeat" (for all, until, etc.)
+Entry: usually implicit
+Exit: explicit and implicit
+External reference as process unit
+General sequence: "do"...(then)..."do"
+Example: CFG in Fig 11.2 from external specifications
+Comparison to white-box CFGs
+
+Implementation independent
+Generally assume structured programs
+Other info sources: user-related items
+
+usage-scenarios/traces/user-manuals
+high-level req. and market analyses
+CFT: Path Definition
+Test cases: CFG ) path to follow
+
+Connecting CFG elements together in paths
+Define and select paths to cover
+Sensitize (decide input for) the paths
+Path related concepts/definitions:
+
+Path: entry to exit via n intermediate links and nodes
+Path segment or sub-path
+
+proper subset of a path
+
+Loop: path or sub-path with 1+ nodes visited 1+ times
+
+Testing based on sub-path combinations
+Loop testing: specialized techniques
+CFT: Path Selection
+Path selection (divide & conquer)
+
+Path segment definition
+Sequential concatenation
+Nesting of segments
+Unstructured construction: difficult
+Eliminate unachievable/dead paths
+
+(contradictions and correlations)
+
+"Divide": hierarchical decomposition for structured programs
+
+"Conquer": Bottom-up path definition one segment at a time via basic cases for nesting and sequential concatenation
+CFT: Path Selection
+Graph G made up of G1 and G2 subgraphs, with M and N branches respectively
+
+Subgraph: 1 entry + 1 exit
+Key decisions at entry points
+Path segment composition
+
+Sequential concatenation: G = G1 o G2
+
+M x N combined paths
+Nesting: G = G1 (G2)
+
+M + N - 1 combined paths
+Example paths for Fig 11.1 (p.177)
+
+TT-, TFT, TFF, FT-, FFT, FFF
