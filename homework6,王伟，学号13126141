@@ -1,0 +1,86 @@
+Defect and QA
+
+Defect: error/fault/failure
+
+Defect prevention/removal/containment
+
+Map to major QA activities
+
+Defect prevention
+
+Error source removal & error blocking
+Defect removal: Inspection/testing/etc
+
+Defect containment: Fault tolerance and failure containment (safety assurance)
+
+Comparison: This chapter
+
+Comparison
+Cost-benefit under given environments
+
+Environments: applicable or not?
+
+Cost to perform
+
+Benefit: quality, directly or indirectly
+
+Testing as the comparison baseline
+
+Most commonly performed QA activity
+
+Empirical and internal data for testing
+
+QA alternatives compared to testing
+
+defect prevention (DP),
+
+inspection,
+
+formal verification (FV),
+
+fault tolerance (FT),
+
+failure containment (FC)
+
+FT & FC: separate items in comparison
+
+Comparison: Applicability
+Applicability questions
+
+High-level questions:
+
+development vs. field usage (and support/maintenance)
+
+Low level questions:
+
+development phases/activities
+
+Applicability to maintenance
+
+Not applicable: Defect prevention
+
+(although lessons applied to future)
+
+Applicable to a limited degree:
+
+Inspection, testing, formal verification, as related to reported field failures
+
+Applicable:
+
+fault tolerance and failure containment, but designed/implemented during development
+
+Our focus:
+
+applicability to development
+
+Objects QA activities applied on
+
+Mostly on specific objects
+
+e.g., testing executable code
+Exception: defect prevention on
+
+(implementation related) dev. activities
+
+Summary: Table 17.1 (p.289)
+
