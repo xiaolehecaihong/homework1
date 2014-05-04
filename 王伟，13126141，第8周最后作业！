@@ -1,0 +1,30 @@
+How to ensure the quality of a software system    Software quality assurance (SQA) systems
+are vital for software developers in the software and the electronicsindustries as well as 
+for information systems divisions in organizations. Software quality is a multi-faceted 
+concept.     For any software product, measures associated with its attributes should 
+collectively reflect likely user satisfaction with use of the product  over its lifetime.It 
+will also, in general, be affected by unstated expectations;whether these were simply 
+overlooked or whether they stem from unforeseen and unanticipated product (system)
+behaviourduring use.Identification of specific quality attributes from the broad spectrum 
+implied by the abovedefinition and their relative importance are,in general, context 
+dependent. Quality objectives will be a function of,for example,the application area, the 
+userenvironment and socioeconomic issues. Reliable program execution, for example,is a 
+universal quality requirement.    The need for improved software quality leads, therefore,
+to a search for a directed and disciplined softwaredevelopment process. This in turn 
+suggests the widest use of formal methods and mechanization.    Formal methods are, in 
+suggests the widest use of formal methods and mechanization.    Formal methods are, in 
+general, difficult to execute reliably, particularly for the non-mathematically 
+inclined.CASE support is essential for their wide industrial application.There are many 
+testing tools, each with specificcapabilities and test objectives.Even if the right testing
+tools is selected,it will spend time to learn the tool,to learn ,to set up. Even more,may be
+the tool is too expensive to afford.If the test if going to perform only once ,it is not 
+worth a testing tool.   But the most important is the SQA group,what the SQA group should
+do?  1. The SQA group works with the software project during its early stages to establish 
+plans, standards, and procedures that will add value to the software project and satisfy the
+ project constraints and the organization’s policies.  2. The SQA group reviews project 
+tasks and audits software work products throughout the SDLC life cycle and provides
+management with visibility as to whether the software project is adhering to its established
+objectivesand standards.Most software quality assurance activities can be categorized into:
+ testing quality control software configuration managementThe success software quality 
+ assurance program also depends on a coherent collection of standards, practices, 
+ conventions, and specification.   So those are what I have learned form SQA . 
